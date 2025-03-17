@@ -10,7 +10,7 @@ def digital_root(n):
 
     num1 = n
     # if it has only 1 digit return the number
-    if (digits != 1):
+    if (digits > 1):
         # otherwise we calculate sum of the number digits
         while (num1 > 0):
             for i in range(digits):
