@@ -2,42 +2,8 @@ Given two positive integers n and p, we want to find a positive integer k, if it
 
 In other words, writing the consecutive digits of n as a, b, c, d ..., is there an integer k such that :
 
-    (
-    a
-    p
-    +
-    b
-    p
-    +
-    1
-    +
-    c
-    p
-    +
-    2
-    +
-    d
-    p
-    +
-    3
-    +
-    .
-    .
-    .
-    )
-    =
-    n
-    ∗
-    k
-    (a 
-    p
-     +b 
-    p+1
-     +c 
-    p+2
-     +d 
-    p+3
-     +...)=n∗k
+    (a^p+b^(p+1)+c^(p+2)+d^(p+3)+...)=n∗k
+    
 If it is the case we will return k, if not return -1.
 
 Note: n and p will always be strictly positive integers.
