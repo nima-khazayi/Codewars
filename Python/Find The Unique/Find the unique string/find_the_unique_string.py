@@ -22,3 +22,4 @@ def find_uniq(arr):
     
     else:
         return arr[0]
+        
